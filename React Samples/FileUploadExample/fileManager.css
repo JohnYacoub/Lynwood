@@ -1,0 +1,25 @@
+.handCursor {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+
+#img {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+.Card {
+  border: none;
+}
